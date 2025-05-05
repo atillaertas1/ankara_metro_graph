@@ -1,4 +1,4 @@
-# Ankara Metro Graph Model
+# Ankara Metro Graph Model for Discrete Mathematics
 
 This project models the Ankara metro system as a graph network, similar to the London Underground style map.
 
@@ -14,7 +14,7 @@ This project models the Ankara metro system as a graph network, similar to the L
 
 - `ankara_metro_graph.py` - Basic graph model with spring layout
 - `ankara_metro_graph_enhanced.py` - Enhanced version with custom layout for a more metro-map-like appearance
-- `ankara_metro_a1_line.py` - Specialized visualization focusing only on the A1 line with a clean, linear layout
+
 
 ## Setup
 
@@ -31,10 +31,6 @@ This project models the Ankara metro system as a graph network, similar to the L
    ```
    python ankara_metro_graph_enhanced.py
    ```
-   or for just the A1 line:
-   ```
-   python ankara_metro_a1_line.py
-   ```
 
 ## Output
 
@@ -42,7 +38,6 @@ The scripts will:
 1. Generate a visualization of the Ankara metro network saved as PNG
    - `ankara_metro_map.png` from the basic version
    - `ankara_metro_map_enhanced.png` from the enhanced version
-   - `ankara_metro_a1_line.png` from the A1-specific version
 2. Display the graph in a window
 3. Print network statistics including transfer stations
 4. Show example routes between stations
@@ -58,5 +53,4 @@ The scripts will:
 - The layout can be adjusted in all versions:
   - Basic version: modify the `pos` parameter in the spring_layout function
   - Enhanced version: adjust the coordinate calculations in the `create_custom_layout()` function
-  - A1 line version: modify the `create_a1_layout()` function
 - Colors and visual properties can be modified in the visualization section 
