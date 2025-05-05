@@ -53,4 +53,6 @@ The scripts will:
 - The layout can be adjusted in all versions:
   - Basic version: modify the `pos` parameter in the spring_layout function
   - Enhanced version: adjust the coordinate calculations in the `create_custom_layout()` function
-- Colors and visual properties can be modified in the visualization section 
+- Colors and visual properties can be modified in the visualization section
+
+Emrecan Gök / Atilla Ertaş
